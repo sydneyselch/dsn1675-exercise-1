@@ -29,3 +29,47 @@ img {
   display: block;
   width: 100%;
 }
+
+.billboard {
+    overflow: hidden;
+    background-image:url(../images/stegosaurus.jpg);
+    background-color:black;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:40rem;
+    height:3rem;
+    width:100%;
+    height:auto
+}
+
+.h1 {
+    font-weight:normal;
+    font-size: 1rem;
+    background-color: rgba(5, 5, 5, .2);
+    letter-spacing:-.1rem;
+    margin: 6rem 0 10rem;
+    padding: .25rem 5%;
+    font-family: georgia;
+    font-style:italic;
+    color:white;
+} 
+
+.info {
+    width: 8rem;
+    display: inline-block;
+    float: left;
+    padding: 1rem;
+}
+
+.h3 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: .75rem;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+
+article {
+    margin: .5rem;
+}
